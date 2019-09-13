@@ -11,8 +11,12 @@ export default class DogList extends Component {
           {this.props.dogs.map(dog => (
             <div className="Dog col-lg-4 text-center" key={dog.name}>
               <img src={dog.src} alt={dog.name} />
-              <h3>
-                <Link to={`/dogs/${dog.name}`} dog={dog}>
+              <h3 className="DogList-name">
+                <Link
+                  to={`/dogs/${dog.name}`}
+                  dog={dog}
+                  className="DogList-link"
+                >
                   {dog.name}
                 </Link>
               </h3>

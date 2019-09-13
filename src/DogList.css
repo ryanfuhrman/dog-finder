@@ -1,3 +1,11 @@
 .Dog img {
   width: 75%;
 }
+
+.DogList-link {
+  color: rgb(68, 68, 68);
+}
+
+.DogList-link:hover {
+  text-decoration: none;
+}
