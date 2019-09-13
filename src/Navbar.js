@@ -25,7 +25,7 @@ class Navbar extends Component {
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
-          aria-controlls="navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
