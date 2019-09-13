@@ -10,10 +10,12 @@ export default class DogList extends Component {
         <div className="row">
           {this.props.dogs.map(dog => (
             <div className="Dog col-lg-4 text-center" key={dog.name}>
-              <Link to={`/dogs/${dog.name}`} dog={dog}>
-                <img src={dog.src} alt={dog.name} />
-              </Link>
-              <h3>{dog.name}</h3>
+              <img src={dog.src} alt={dog.name} />
+              <h3>
+                <Link to={`/dogs/${dog.name}`} dog={dog}>
+                  {dog.name}
+                </Link>
+              </h3>
             </div>
           ))}
         </div>
