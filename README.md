@@ -1,6 +1,6 @@
 # dog-finder
 
-![](dadJokeDemo.gif)
+![](dogFinderDemo.gif)
 
 The Dog Finder exercise as part of [Colt Steele's The Modern React Bootcamp](https://www.udemy.com/modern-react-bootcamp/) course.
 
